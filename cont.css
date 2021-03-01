@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+
+
+  /* Style the body */
+  *{
+    padding:0;
+    margin:0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#footer{
+  margin: 0;
+}
+#servce1{
+  width: 100%;
+  margin: 0;
+}
+
+.mapandform{
+  text-align: center;
+  margin: 50px 90px;
+}
+            #cont{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 1rem;
+                width: 60%;
+              
+            }
+
+            .contact h1{
+                font-family:  Arial, Helvetica, sans-serif;
+                color: #754847;
+                margin-top: 80px;
+                margin-left: 200px;
+                
+
+            }
+            .contact h4::after{
+                color: #000000;
+                    content: "";
+                    width: 120px;
+                    height: 1px;
+                    display: inline-block;
+                    background: #741a34;
+                    margin-right: 200px;
+                  }
+
+            .mail{
+
+                flex: 0 1 auto;
+                width: 50%;
+
+                height: 230px;
+                }
+            .mail h4{
+                padding:2%;
+                font-family:Arial, Helvetica, sans-serif;
+                color: #754847;
+                font-size: x-large;
+                }
+            .map>iframe{
+                width: 47%;
+                height: 580px;
+                margin-left: 15rem;
+                margin-right: -25rem;
+                margin-top: 20px;
+                position: relative;
+                bottom: 650px;
+                z-index: 2;
+            }
+
+            .form {
+               flex: 0 1 auto;
+                width: 55%;
+                margin-top: 4rem;
+                height: 50vh;
+                text-align:center;
+                background-color: #96578cf2;
+                border-radius: 10%;
+                position: relative;
+                top: -15px;
+                right: -50px;
+                margin-left: 40px;
+            }
+
+            input[type=text], input[type=email], textarea {
+                width: 90%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+              }
+              textarea {
+                width: 90%;
+                height: 120px;
+                padding: 12px;
+                border: 1px solid #ccc;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+              }
+
+            .form h2{
+
+                margin-top: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                color: #f1e3e3;
+            }
+
+            #submit{
+                border-radius: 15%;
+                border: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.3rem;
+                color: #2e0624;
+                background-color: rgb(230, 198, 216);
+                width: 120px;
+                height: 50px;
+                font-weight: bold;
+
+            }
+            #submit:hover{
+                transform: scale(1.5);
+                cursor: pointer;
+                box-shadow: rgb(240, 224, 215) 2px 2px 1px;
+                background-color: rgb(228, 189, 216);
+
+            }
+            .form a{
+                border: 2px solid black;
+                margin-bottom: 1.5rem;
+            }
+      .ad{
+        display: flex;
+        margin-top: 20px;
+      }
+            .adr{
+                flex: 0 1 auto;
+                width: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.6rem;
+                color: #754847;
+                font-weight: bolder;
+                margin-left: 600px;
+            }
+            .adr h6{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.1rem;
+                color: rgb(146, 81, 76);
+            }
+            .tel{
+                flex: 0 1 auto;
+                font-weight: bolder;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.6rem;
+                color: #754847;
+            }
+            .tel h6{
+                color: rgb(146, 81, 76);
+                font-size: 1.1rem;
+
+            }
+
+/*----Footer*/

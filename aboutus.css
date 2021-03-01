@@ -1,0 +1,230 @@
+
+.aboutmain{
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+.wel{
+    display: flex;
+    width: 100%;
+}
+
+.text{
+    background-image: url(6.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+                
+}
+.text h1{
+    margin: 30px;
+    font-size: 4rem;
+    text-shadow: 1px 0px 1px rgb(238, 229, 240),0px 1px 1px rgb(240, 219, 196);
+}
+
+.text>input[type=button]{
+    border-radius: 10%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(17, 17, 16);
+    background-color: rgb(173, 93, 153);
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.text>input[type=button]:hover{
+    cursor: pointer;
+
+}
+ .woman{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+ }
+
+.us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 60%;
+    margin: 50px auto;
+    
+    border-radius: 45%;
+    
+    
+    
+}
+.us .image2{
+    flex: 1 1;
+    
+    
+}
+.us .para{
+    min-width: 60;
+    flex: 1 1;
+    text-align: left;
+    justify-content: left;
+    padding-top: 6.5rem;
+    
+    
+}
+.us .image2>img{
+   
+    width: 50vh;
+    height: 50vh;
+    border-radius: 20%;
+    
+    
+}
+
+.us .para>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #754847;
+    text-align: left;
+    
+    
+}
+
+.us .para>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(73, 46, 20);
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.ques h1{
+       
+    font-family: "Poppins", sans-serif;    
+    color: #754847;
+    font-size: 2rem;
+}
+.ques h1:hover{
+    color: rgb(73, 14, 53);
+    text-shadow:1px 1px  rgb(12, 4, 1)  0px 1px  rgb(247, 68, 193);
+}
+.ques h2{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: #dacfd7;
+    font-size: 1.5rem;
+}
+
+.ques p{
+    margin-top: .5rem;
+    margin-left: 8rem;
+    font-family: "Poppins", sans-serif;
+    color: rgb(233, 86, 93);
+    font-size: 1.5rem;
+}
+
+ 
+  
+
+ .collapsible {
+    background-color: rgb(201, 111, 165);
+    
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(179, 105, 160);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow:auto;
+    background-color: rgb(243, 210, 200);
+  }
+
+
+  .thank{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 80%;
+    background-color: rgb(243, 222, 229);
+
+}
+.you{
+    flex: 1 1;
+    
+}
+.for{
+    min-width: 80vh;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+}
+.you>img{
+ width: 100vh;
+ height: 50vh;
+ border-radius: 30px;
+ 
+}
+.for>h2{
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #ababab;
+    margin-top: 7rem;
+    font-size: 1.9rem;
+    color: #754847;
+    text-align: center;
+    align-items:center;
+    padding-right: 3.8rem;
+    padding-bottom: 3rem;
+}
+.for>h3{
+  font-family: "Sofia",sans-serif;
+    font-size: 1.4rem;
+    color: #754847;
+    text-align: center;
+    align-items:center;
+    
+}
+.tab{
+  height: 10vh;
+  
+}
+.table{
+  padding-bottom: .5rem;
+}
+.table1{
+  
+  text-align: center;
+  width: 100%;  
+  padding: 0rem 2rem 2.5rem 3rem;
+}
+.table1 td{
+  font-family: "Sofia";
+    font-size: 1.5rem;
+    color: #754847;
+    text-align: center;
+    align-items:center;
+}
+.table1 a{
+  text-decoration: none;
+  color: #754847;
+}
+
+
+
+
+     

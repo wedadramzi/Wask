@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+       /*cart box*/
+       .cartBox{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 99999;
+        transition: 0.3s linear;
+        transform: scale(0);
+    }
+    .cartBox.active{
+        transform: scale(1);
+    }
+    .cartBox .cart{
+        position: relative;
+        height: 70%;
+        width: 80%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cartBox .cart i{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background:rgb(255, 0, 234);
+        padding:10px 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .cartBox .cart i:hover{
+        background: #cc87bba5;
+    }
+    .cartBox .cart h1{
+        position: relative;
+        margin-top: 2%;
+        font-size: 2.8rem;
+        color: #017bf5;
+    }
+    
+    .main header{
+        position: relative;
+        height: 15vh;
+        width: 100%;
+        display: flex;
+        
+        justify-content: space-around;
+        background-size: cover;
+        background-position: center center;
+        font-size: 1.5rem;
+        color: #bea89bf2;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .navbar .iconShopping{
+        cursor: pointer;
+        z-index: 1;
+        position: relative;
+        font-size: 1.8rem;
+      color: rgb(224, 217, 217);
+      margin-right: 30px;
+        
+    }
+    
+    .navbar .iconShopping p{
+        position: absolute;
+        top: -5px;
+        right: -12px;
+        font-size: 1rem;
+        background-color: rgb(65, 40, 40);
+        padding: 5px 5px;
+        border-radius: 50%;
+    }
+    
+     
+      @import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+      * {
+       
+        box-sizing: border-box;
+      }
+      
+      /* Style the body */
+      body {
+        font-family: Arial, Helvetica, sans-serif; 
+        margin: 0;
+      }
+    
+    .navbar {
+      overflow: hidden;
+      background-color:  #96578cf2;
+      position: sticky;
+      padding: 0px;
+      width:100%;
+       height: 60px;
+      }
+    .navbar .search-container {
+      float: right;
+      border-radius: 10px;
+    }
+    
+    /* Style the input field inside the navbar */
+    .navbar input[type=text] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    /* Style the button inside the input container */
+    .navbar .search-container button {
+      float: center;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    /*logo style*/
+    .navbar .avatar {
+      vertical-align: middle;
+      width: 30%;
+      height: 60px;
+      border-radius: 100%;
+    }
+    /*slogan*/
+     .navbar .slogan{
+          font-family: 'Sofia';
+          font-size: 17px;
+           vertical-align: left;
+           position: relative;
+           bottom: 7px;
+           color: #e7dfdf;
+     }   
+     .navbar .logo{
+       display: inline-flex;
+      
+     }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      float: right;
+      display: block;
+      color:  #e7dfdf;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+       font-size: 20px;
+       font-weight: bold;
+      
+    }
+    /* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
